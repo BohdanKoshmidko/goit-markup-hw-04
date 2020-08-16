@@ -300,6 +300,8 @@ hr {
   width: 270px;
   height: 428px;
   background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-cont li:last-child {
@@ -495,6 +497,23 @@ footer .letsgo {
   letter-spacing: 0.06em;
 }
 
+.portfolio-btn {
+  border: 0;
+  color: #212121;;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.portfolio-btn:hover {
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
+
 .portfolio .text {
   font-weight: 400;
   font-size: 18px;
@@ -555,9 +574,17 @@ button {
 
 .portfolio-list .info {
   width: calc((100% - 60px) / 3);
-  background-color: tomato;
   margin-right: 30px;
   margin-bottom: 30px;
+  height: 404px;
+
+  background-color: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+}
+
+.portfolio-list .info:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-list .info:nth-child(3n) {
@@ -571,14 +598,20 @@ button {
 .portfolio .text {
   padding-left: 24px;
   padding-right: 24px;
+  text-decoration: none;
 }
 
 .portfolio .title {
   padding-left: 24px;
   padding-right: 24px;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .portfolio .work {
   padding-left: 24px;
   padding-right: 24px;
+  text-decoration: none;
 }
