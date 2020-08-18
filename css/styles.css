@@ -95,12 +95,22 @@ hr {
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
-}
 .site-nav .link.current {
   color: #2196f3;
+}
+
+.site-address .site-icons {
+  padding: 0;
+  margin: 0;
+  fill: #757575;
+}
+
+
+
+.site-address {
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 /* site address*/
@@ -131,7 +141,16 @@ hr {
 .site-address .link:focus {
   color: #2196f3;
 }
+.block-frst {
+  margin-right: 30px;
+}
+.block-frst:hover .site-icons {
+  fill: #2196f3;
+}
 
+.block-scnd:hover .site-icons {
+  fill: #2196f3;
+}
 /* overlay */
 
 .overlay {
@@ -352,8 +371,8 @@ hr {
   fill: #afb1b8;
 }
 
-.network-icons:hover {
-  fill: #ffffff;
+.list-icons:hover .network-icons {
+  fill: #FFFFFF
 }
 
 .section-team .name-title {
@@ -403,12 +422,15 @@ hr {
   border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
-  color: #FFFFFF;
-  fill: #FFFFFF;
+  color: #AFB1B8;
 }
 
 .border-partners:hover {
   border-color: #2196F3;
+}
+
+.border-partners:hover .company-icon {
+  color: #2196F3;;
 }
 
 .border-partners .company-icon {
