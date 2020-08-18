@@ -322,6 +322,18 @@ hr {
   margin-right: 0;
 }
 
+.list-icons {
+  display: flex;
+  padding: 0;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  color: #FFFFFF;
+}
+
+.list-icons:hover {
+  background-color: #2196F3;
+}
 .network-items .border-icons {
   padding: 0;
   border: none;
@@ -331,10 +343,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center; 
-}
-
-.border-icons :hover {
-  background-color: #2196F3;
+  fill: currentColor;
 }
 
 .network-items .network-icons {
@@ -394,6 +403,8 @@ hr {
   border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
+  color: #FFFFFF;
+  fill: #FFFFFF;
 }
 
 .border-partners:hover {
